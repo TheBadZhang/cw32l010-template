@@ -1,0 +1,16 @@
+# 构建产物
+build/
+
+# xmake 本地缓存
+.xmake/
+
+# Python 缓存（tools 下的辅助脚本）
+__pycache__/
+*.pyc
+
+# 编辑器/系统
+.vscode/*.log
+.vscode/launch.json.bak
+*.swp
+.DS_Store
+Thumbs.db
